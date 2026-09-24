@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
+import my_image from "../assets/2x2 picture.jpg"
 // import avatarImg from "../assets/2x2 picture.jpg"; // <-- point this at your real asset
 
 /**
@@ -62,7 +63,7 @@ const ROLES = [
   "MySQL & PostgreSQL",
 ];
 
-const PROFILE_IMAGE = null; // set to your imported avatar
+const PROFILE_IMAGE = my_image; // set to your imported avatar
 const INITIALS = "AL";
 
 function useTypewriter(words, typingSpeed = 65, pauseMs = 1400) {
